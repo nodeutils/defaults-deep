@@ -1,6 +1,7 @@
 # defaults-deep
+## Part of the [nodeutils package](https://www.npmjs.com/package/nodeutils)
 
-Similar to lodash's defaultsDeep, but without mutating the source object, and no merging of arrays
+Similar to lodash's defaultsDeep, but without mutating the source object, and no merging of arrays.
 
 
 ## Installation
