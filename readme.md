@@ -1,5 +1,5 @@
 # defaults-deep
-## Part of the [nodeutils package](https://www.npmjs.com/package/nodeutils)
+## An individual component of the [[nodeutils package]](https://www.npmjs.com/package/nodeutils)
 
 Similar to lodash's defaultsDeep, but without mutating the source object, and no merging of arrays.
 
@@ -9,7 +9,7 @@ Similar to lodash's defaultsDeep, but without mutating the source object, and no
 Install the package via `npm`:
 
 ```
-$ npm install @nodeutils/defaults-deep
+$ npm install @nodeutils/defaults-deep --save
 ```
 
 ## Usage
