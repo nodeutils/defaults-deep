@@ -3,3 +3,8 @@ node_modules
 src
 test
 readme.md
+.babelrc
+.eslineignore
+.eslintrc.js
+.gitignore
+.npmignore

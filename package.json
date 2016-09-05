@@ -1,6 +1,6 @@
 {
   "name": "@nodeutils/defaults-deep",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Like lodash's _.defaultsDeep, but with array preservation",
   "main": "lib/index.js",
   "scripts": {
