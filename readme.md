@@ -29,7 +29,8 @@ var objectB = { bar: { biz: { net: 'qux'} }, qux: ['biz', 'ban'] };
 var objectC = { bar: { biz: { net: 'qux', lee: 'sox' } }, qux: ['biz', 'rep'], foo: 'bar' };
 
 defaultsDeep(objectA, objectB, objectC);
-// => { bar: { biz: { net: 'qux', qox: 'fuc', lee: 'sox' } }, qux: ['baz'], foo: 'bar' }
+// => { bar: { biz: { net: 'txi', lee: 'sox', qox: 'fuc' } }, qux: [ 'baz' ], foo: 'bar' }
+
 ```
 
 ###How
