@@ -1,10 +1,12 @@
 "use strict";
-const _ = require("lodash");
+const toArray = require("lodash/toArray");
+const mergeWith = require("lodash/mergeWith");
+const isArray = require("lodash/isArray");
 module.exports = function () {
     let output = {};
-    _.toArray(arguments).reverse().forEach(item=> {
-        _.mergeWith(output, item, (objectValue, sourceValue) => {
-            return _.isArray(sourceValue) ? sourceValue : undefined;
+    toArray(arguments).reverse().forEach(item => {
+        mergeWith(output, item, (objectValue, sourceValue) => {
+            return isArray(sourceValue) ? sourceValue : undefined;
         });
     });
     return output;
